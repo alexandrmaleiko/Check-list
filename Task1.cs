@@ -13,12 +13,12 @@ namespace ComputerScience
             string lastname = Console.ReadLine();
 
             int Age;
-            int God = 2021;
+            int year = 2021;
             Console.WriteLine("Введите свой год рождения: ");
             int age = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine($"Name: Hello {name + lastname}! " +
-                $"Your age is Age: {Age = God - age}");
+                $"Your age is Age: {Age = year - age}");
 
           
 
